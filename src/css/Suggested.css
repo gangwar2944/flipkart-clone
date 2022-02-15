@@ -1,0 +1,55 @@
+.suggested{
+    width: 98vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-transform: capitalize;
+}
+.heading_interest h1{
+   margin: 10px;
+}
+.heading_interest p{
+    margin: 0px 10px 10px 10px;
+}
+.suggested_single_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 6px;
+  width: 16vw;
+  /* height: 50vh; */
+  background-color: #fff;
+}
+.suggested_single_item img{
+    width: 70px;
+    height: 150px;
+}
+.suggested_single_item .mobile_name{
+    margin: 5px 8px;
+}
+.fa-star{
+    color: rgb(18, 182, 40);
+    margin: 0 2px;
+}
+.price{
+    margin: 8px; 
+}
+.actul_price{
+    margin: 0 8px;
+    color: rgb(135, 135, 135);
+}
+.suggested_single_item strike{
+     margin: 0 5px;
+     color: rgb(135, 135, 135);
+}
+.green{
+    color: rgb(18, 182, 40);
+}
+.suggested_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+.slider{
+    width: 98vw;
+    height: 40vh;
+    background-color: antiquewhite;
+    margin: 10px 0;
+    position: relative;
+   }
+   .img_slider img{
+       width: 100%;
+       height: 40vh;
+   }
+   .left_icon{
+      position: absolute;
+      font-size: 25px;
+      background-color: #fff;
+      height: 80px;
+      width: 40px;
+      top: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .right_icon{
+       position: absolute;
+       font-size: 25px;
+       background-color: #fff;
+       height: 80px;
+       width: 40px;
+       top: 40%;
+       right: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }

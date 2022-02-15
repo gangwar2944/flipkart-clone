@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(40, 116, 240);
+    width: 98vw;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    /* text-align: right; */
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+.logo img{
+   width: 100%;
+   height: 100%;
+}
+.logo_section{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+     align-items: center;
+}
+.navlink ul li{
+   display: inline-block;
+   padding: 5px 20px;
+   /* background-color: aliceblue; */
+   font-size: 18px;
+}
+.navlink ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+.navlink ul{
+    text-align: center;
+    align-items: left;
+    margin-top: 3%;
+}
+.input_box input{
+    width: 550px;
+    padding: 10px 50px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.08);
+    /* border-radius: 20px; */
+}
+.input_box{
+    position: relative;
+}
+.input_box span{
+     position: absolute;
+     right: 15px;
+     top: 10px;
+     font-size: 18px;
+     color: rgb(75, 77, 182);
+}
+.logo_text{
+    color: #fff;
+    margin:0 5px;
+}
+.logo_text .yellow {
+    color: rgb(240, 221, 17);
+ 
+}
+.logo_text .yellow{
+    margin-left: 3px;
+}
+.fa-light{
+    color: #fff;
+    z-index: 1000;
+}
