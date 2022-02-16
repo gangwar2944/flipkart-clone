@@ -1,3 +1,4 @@
+import Timer from "./Timer";
 const Deals=()=>{
     return (
         <>
@@ -6,7 +7,7 @@ const Deals=()=>{
         <div className="deals_of_days">
              <div className="deals_title">
                 <h1>Deals of the day</h1>
-                <p>timer</p>
+                <Timer/>
               </div>
              <button className="btn">Veiw All</button>
          </div>  
