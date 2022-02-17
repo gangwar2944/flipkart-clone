@@ -12,6 +12,7 @@ import './css/Slider.css';
 import './css/Deals.css';
 import './css/Suggested.css';
 import './css/Fashion.css';
+import { SliderData } from "./jsx/SliderData";
 
 
 
@@ -20,7 +21,7 @@ function App() {
     <> 
     <Header/>
     <Navbar/>
-    <Slider/>
+    <Slider slides={SliderData}/>
     <Deals/>
     <Suggested/>
     <Fashion/>

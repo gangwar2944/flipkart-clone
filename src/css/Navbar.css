@@ -7,7 +7,7 @@
 .grid-container{
    display: grid;
    grid-template-columns: auto auto auto auto auto auto auto auto auto;
-   background-color: aqua;
+   background-color: #fff;
    width: 100vw;
    height: 100px;
    justify-content: center;
@@ -37,4 +37,7 @@ font-weight: 700;
 .fa-solid{
    color: #000;
    z-index: 1001;
+}
+.fa-solid.dropdown{
+   color: #000;
 }

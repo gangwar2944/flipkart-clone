@@ -1,7 +1,8 @@
+
 const Header=()=>{
     return ( 
         <>
-            <header className="header">
+        <header className="header">
         <div className="logo_section">
            <div className="logo">
              <img src="https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-inventory-management-system-zap-inventory-1.png" alt=""/>
